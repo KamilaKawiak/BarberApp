@@ -1,0 +1,162 @@
+body
+{
+    background-color: rgb(228, 225, 225);
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    margin: 0 auto; 
+
+}
+
+#box
+{
+    width: 500px;
+    padding: 0 400px 530px 400px;
+    margin: 0 auto; 
+    background-image: url(https://st-lento.pl/adpics/large/01_2020/07/0fe2b7-praca-barber-fryzjer-meski-kielce-pilnie-zatrudnie-swietokrzyskie-zdjecia.jpg);
+    text-align: center;
+    filter: alpha(opacity=70); opacity: 0.7; border: 1px solid rgb(207, 207, 207);
+   
+}
+
+nav 
+{
+    background: #594848;
+    width: 100%;
+    overflow: auto;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li
+{
+    float: left;
+}
+
+nav a
+{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
+    color:blanchedalmond;
+    padding: 20px 10px;
+    font-family: Arial;
+
+}
+
+nav a:hover
+{
+    background: gray;
+    color: black;
+}
+
+
+h2 
+{
+
+    margin: 0;
+    color: rgb(230, 218, 233);
+    font-size: 120px;
+    font-family: 'Copperplate Gothic Light';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+#my
+{
+    text-align: center;
+    font-family: 'Century Gothic';
+    padding-top: 70mm;
+}
+
+#my2
+{
+    text-align: center;
+    font-family: 'Century Gothic';
+    
+}
+
+#my2 img
+{
+    border: 10px solid #ccc;
+    position: relative; left: 10mm;
+
+}
+ 
+#cennik
+{
+    text-align: center;
+    position: relative;
+    top: 10px;
+  
+}
+
+
+.kolumna
+{
+    position: relative; left: 40mm;
+    text-align: center;
+    float: left;
+    margin: 10px;  
+    width: 296px;
+    height: 330px;
+    border: 2px solid rgb(170, 169, 169);
+    
+}
+
+
+#clear
+{
+clear: both;
+}
+
+
+
+footer
+{
+    background-color: #594848;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: blanchedalmond;
+    margin-top: 20%;
+}
+
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.footer-content h7
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p
+{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}

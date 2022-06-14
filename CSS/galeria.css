@@ -1,0 +1,40 @@
+body
+{
+    background-color: #594848;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container
+{
+    max-width: 900px;
+    margin: auto;
+    
+    overflow: auto;
+}
+.gallery
+{
+    margin: 5px;
+    border: 10px solid #ccc;
+    float: left;
+    width: 400px;
+}
+.gallery img 
+{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+
+}
+
+.gallery img:hover
+{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+
+
+
